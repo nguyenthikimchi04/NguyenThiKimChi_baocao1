@@ -2,17 +2,9 @@ import React from "react";
 import { Link } from "react-router-dom";
 import BannerImage from "../assets/pizza.jpeg";
 import "../styles/Home.css";
-import { MenuList } from "../helpers/MenuList";
-import { ListCategory } from "../helpers/ListCategory"
-import { ListBestSeller } from "../helpers/ListBestSeller"
-import CardCategory from "../components/CardCategory";
-import CardCake from "../components/CardCake";
-import img_background_Name from "../assets/img_background_Name.png";
-import MenuItem from "../components/MenuItem";
+
 import header1 from "../components/header";
-// import "../styles/Menu.css";
-import "../styles/CardCake.css"
-import "../styles/Header.css"
+
 
 import logo from "../assets/Logo_Cake.png";
 import img_homevorcher from "../assets/img_HomeVorcher.png"
@@ -21,13 +13,10 @@ import img_HomeOareng from "../assets/img_HomeOreng.png";
 import img_HomePink from "../assets/img_HomePink.png";
 import { useState, useEffect } from "react";
 import HomeSlide from "../components/HomeSlide";
-import ViewMore from "../components/ViewMore";
-// FireStore
+
 import { collection, getDocs, doc, docs } from 'firebase/firestore/lite';
 import { db } from "../firebase";
-import { storage } from "../firebase";
-import { UserAuth } from "../context/AuthContext";
-import BestSeller_Slide from "../components/BestSeller_Slide";
+
 function Home() {
     const [cakes, setcakes] = useState([]);
 
@@ -90,22 +79,7 @@ function Home() {
                     <div class="line2"></div>
 
                 </div>
-                <div className="HomeCategory">
-                    {ListCategory.map((cardCategory, key) => {
-                        return (
-                            <Link to={`${"/ViewMoreCategory"}?Category=${cardCategory.category}`} style={{ textDecoration: 'none' }} onClick={handleClick}>
-                                <CardCategory
-                                    key={key}
-                                    image={cardCategory.image}
-                                    name={cardCategory.name}
-                                    coler={cardCategory.coler}
-                                />
-                            </Link>
-                        );
-                    })}
-
-                </div>
-                <ViewMore Links="/CategoryCake" />
+               
                 <div className="home_voucher" style={{ backgroundImage: `url(${img_homevorcher})` }}>
                     <h5>FLASH SALES</h5>
                     <div className="home_voucher_persen">
@@ -125,25 +99,7 @@ function Home() {
                     <div class="line2"></div>
 
                 </div>
-                <div className="Home_BestSeller" >
-                    {/* {cakes.map((u) => {
-               return (
-                <Link to={`/detail/${u.idcake}`} style={{ textDecoration: 'none' }}>
-                  <CardCake
-                    key={u.idcake}
-                    image={u.img1}
-                    name={u.name}
-                    price={u.price}
-                  />
-                </Link>
-              );
-            })} */}
-                    <BestSeller_Slide />
-
-
-                </div>
-                <ViewMore Links="/ViewMoreBestSeller" />
-
+               
             </div>
             <div className="Home_Introduce">
                 <div className="Home_Infomation">

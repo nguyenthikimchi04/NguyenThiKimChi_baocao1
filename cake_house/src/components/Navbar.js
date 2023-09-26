@@ -1,10 +1,10 @@
 import React, { useState } from "react";
 import Logo from "../assets/Logo_Cake.png";
 import { Link } from "react-router-dom";
-//import ReorderIcon from "@material-ui/icons/Reorder";
+// import ReorderIcon from "@material-ui/icons/Reorder";
 import "../styles/Navbar.css";
-//import AccountCircleIcon from '@material-ui/icons/AccountCircle';
-//import ExitToAppIcon from '@material-ui/icons/ExitToApp';
+// import AccountCircleIcon from '@material-ui/icons/AccountCircle';
+// import ExitToAppIcon from '@material-ui/icons/ExitToApp';
 function Navbar() {
 
     // ======= Thanh thu gọn header===========
@@ -14,26 +14,26 @@ function Navbar() {
     //     !this.state.clicked});
     // }
 
-    const [isClicked, setIsClicked] = useState(false);
+    // const [isClicked, setIsClicked] = useState(false);
 
-    const handleClick = () => {
-        setIsClicked(!isClicked);
-    };
+    // const handleClick = () => {
+    //     setIsClicked(!isClicked);
+    // };
 
-    const getlayout = () => {
-        if (isClicked) {
-            return "fas fa-times";
-        } else {
-            return "fas fa-bars";
-        }
-    };
-    const getmenulayout = () => {
-        if (isClicked) {
-            return "rightSide_activity";
-        } else {
-            return "rightSide";
-        }
-    };
+    // const getlayout = () => {
+    //     if (isClicked) {
+    //         return "fas fa-times";
+    //     } else {
+    //         return "fas fa-bars";
+    //     }
+    // };
+    // const getmenulayout = () => {
+    //     if (isClicked) {
+    //         return "rightSide_activity";
+    //     } else {
+    //         return "rightSide";
+    //     }
+    // };
 
     const defaultStyle = {
         backgroundColor: "",
@@ -71,11 +71,11 @@ function Navbar() {
                 <h1>CAKE HOUSE</h1>
 
             </div>
-            <div className="menu-icons">
+            {/* <div className="menu-icons">
                 <i onClick={handleClick} className={getlayout()}></i>
-            </div>
+            </div> */}
 
-            <div onClick={handleClick} className={getmenulayout()}>
+            {/* <div onClick={handleClick} className={getmenulayout()}> */}
                 {/* <div className="navbar_header">
           <div className="Search-box">
             <div className="Search-input">
@@ -135,7 +135,7 @@ function Navbar() {
             <div className="navbar_title2"> Đăng nhập</div>
           </Link>
         </div> */}
-            </div>
+            {/* </div> */}
         </div>
     );
 }
