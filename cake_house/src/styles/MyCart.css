@@ -1,0 +1,304 @@
+.MyCart{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: left;
+    flex-direction: column;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: "Bellota";
+    background-color: #FDF6F0;
+    color: #8F3C02;
+}
+.MyCart_header{
+    display: flex;
+    width: 80%;
+    margin-top: 14vh;
+    background-color: #F8E2CF;
+    margin-left: 10%;
+    border-radius: 10px;
+    font-size: 18px;
+}
+/* .MyCart_header h3{
+    flex: 30%;
+} */
+.MyCart_header input{
+    flex: 7%;
+}
+.MyCart_header_sp{
+    flex: 30%;
+}
+.MyCart_header_pr{
+    flex: 27%;
+}
+.MyCart_header_num{
+    flex: 16%;
+}
+.MyCart_header_allpr{
+    flex: 17%;
+}
+
+/* ====================Card Cart================== */
+.MyCart_List{
+    width: 80%;
+    height: auto;
+    display: grid;
+    /* grid-template-columns: 1fr 1fr 1fr 1fr; */
+    /* place-items: center; */
+    margin-left: 10%;
+    margin-top: 2%;
+}
+.CardCart{
+    display: flex;
+    height: 130px;
+    width: 100%;
+    background-color:#F8E2CF ;
+    border-radius: 10px;
+    margin-bottom: 12px;
+ }
+
+/* ===================================================== */
+.CardCart_input_all_div{
+    flex: 5% 1;
+    margin-top: 20px;
+    margin-left: 30px;
+}
+.CardCart_input_all{
+    display: block;
+    position: relative;
+    padding-left: 35px;
+    margin-bottom: 12px;
+    cursor: pointer;
+    font-size: 22px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+  }
+  
+  /* Hide the browser's default checkbox */
+  .CardCart_input_all input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0;
+  }
+  
+  /* Create a custom checkbox */
+  .checkmark_all {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 25px;
+    width: 25px;
+    background-color: #FDF6F0;
+    border-radius: 4px;
+
+  }
+  
+  /* On mouse-over, add a grey background color */
+  .CardCart_input_all:hover input ~ .checkmark_all {
+    background-color: #FDF6F0;
+  }
+  
+  /* When the checkbox is checked, add a blue background */
+  .CardCart_input_all input:checked ~ .checkmark_all {
+    background-color: #4B1D1D;
+  }
+  
+  
+  /* Create the checkmark/indicator (hidden when not checked) */
+  .checkmark_all:after {
+    content: "";
+    position: absolute;
+    display: none;
+  }
+  
+  /* Show the checkmark when checked */
+  .CardCart_input_all input:checked ~ .checkmark_all:after {
+    display: block;
+  }
+  
+  /* Style the checkmark/indicator */
+  .CardCart_input_all .checkmark_all:after {
+    left: 9px;
+    top: 5px;
+    width: 5px;
+    height: 10px;
+    border: solid white;
+    border-width: 0 3px 3px 0;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+  }
+/* =============================================== */
+
+.CardCart_imgdiv{
+    flex: 10%;
+}
+.CardCart_img{
+    width: 110px;
+    height: 110px;
+    margin-top: 10px;
+    border-radius: 10px;
+    object-fit: cover;
+}
+.Cartinfo{
+    flex: 20%;
+}
+.CartPrice{
+    flex: 20%;
+    margin-top: 30px;
+}
+/* .CartNum{
+    flex: 20%;
+    display: flex;
+} */
+.CartAllPrice{
+    flex: 20%;
+    margin-top: 30px;
+}
+
+.CartNum{
+    display: flex;
+    margin-left: 20px;
+    margin-top: 20px;
+    width: 80%;
+    height: 30px;
+    flex: 20%;
+  }
+  .CartNum h2{
+    margin-left: 20px;
+    margin-top: 30px;
+
+  }
+  .CartNum button{
+    color: #CD8042;
+    margin-left: 20px;
+    background-color: white;
+    width: 30%;
+    height: 30px;
+    margin-top: 30px;
+    border-radius: 10px;
+    border: 1px solid #CD8042;
+    font-size: 25px;
+  }
+
+  .MyCart .summary{
+    display: flex;
+    /* border-top: 2px solid rgb(200, 199, 199);  */
+    background-color: rgb(244, 242, 242);
+    position: sticky;
+    position: -webkit-sticky;
+    bottom: 0;
+    z-index: 3;
+    padding: 2% 5%;
+    box-shadow: 1px 2px 15px #999999;
+    font-size: large;
+  }
+
+  .MyCart #btn_delete{
+    background-color: #CD8042;
+    color: white;
+    border: none;
+    padding: 5px 15px;
+    border-radius: 5px;
+    font-family: Bellota ;
+    font-weight: bold;
+    font-size:1.2rem;
+
+  }
+  .MyCart #btn_delete:hover{
+    cursor: pointer;
+  }
+
+  .MyCart #btn_buy{
+    background-color: #CD8042;
+    color: white;
+    border: none;
+    padding: 5px 15px;
+    border-radius: 5px;
+    font-family: Bellota ;
+    font-weight: bold;
+    font-size:1.2rem;
+  }
+  .MyCart #btn_buy:hover{
+    cursor: pointer;
+  }
+  
+  .MyCart .summary .div_select{
+    flex: 50%;
+    display: flex;
+    align-items: center;
+  }
+
+  .MyCart .summary .div_total_price{
+    flex: 50%;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+  }
+
+  /* .MyCart .summary #selected{
+    
+  } */
+
+  .MyCart .summary #select_number{
+    display: inline;
+    margin: 0 10% 0 1%;
+  }
+  .MyCart .summary #total_price_number{
+    display: inline;
+    margin: 0 10% 0 1%;
+  }
+  .confirm_dialog {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 9999;
+}
+
+.confirm_dialog-content {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  max-width: 400px;
+  text-align: center;
+}
+
+.confirm_dialog-content h3 {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.confirm_dialog-content p {
+  margin-bottom: 20px;
+}
+
+.confirm_buttons {
+  display: flex;
+  justify-content: center;
+}
+
+.confirm_buttons button {
+  margin: 0 10px;
+  padding: 8px 16px;
+  border: none;
+  border-radius: 4px;
+  background-color: #f44336;
+  color: #fff;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.confirm_buttons button:last-child {
+  background-color: #ccc;
+}

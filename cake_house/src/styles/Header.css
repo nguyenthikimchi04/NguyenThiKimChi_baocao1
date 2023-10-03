@@ -4,100 +4,97 @@
     display: flex;
     justify-content: center;
 
-}
-
-.my-div .line1 {
-
+  }
+  .my-div .line1 {
+ 
     margin-top: 3%;
     /* margin-left: 21%; */
     width: 25%;
     height: 5px;
     background-color: #FCD8D4;
-}
-
-.line2 {
-
+  }
+  .line2 {
+  
     margin-top: 3%;
     width: 25%;
     height: 5px;
     background-color: #FCD8D4;
-}
-
-.header_name {
+  }
+  .header_name{
     color: #8F3C02;
     width: 30%;
     text-align: center;
     font-family: Bellota;
+    
+  }
 
-}
-
-@media only screen and (max-width: 1040px) {
+  @media only screen and (max-width: 1040px) {
     .my-div .line1 {
-        margin-top: 4%;
+      margin-top: 4%;
     }
 
     .my-div .line2 {
-        margin-top: 4%;
+      margin-top: 4%;
     }
-}
+  }
 
-@media only screen and (max-width: 816px) {
+  @media only screen and (max-width: 816px) {
     .my-div .line1 {
-        margin-top: 5%;
+      margin-top: 5%;
     }
 
     .my-div .line2 {
-        margin-top: 5%;
+      margin-top: 5%;
     }
-}
+  }
 
-@media only screen and (max-width: 734px) {
+  @media only screen and (max-width: 734px) {
     .my-div .line1 {
-        margin-top: 6%;
-        width: 20%;
+      margin-top: 6%;
+      width: 20%;
     }
 
     .my-div .line2 {
-        margin-top: 6%;
-        width: 20%;
+      margin-top: 6%;
+      width: 20%;
     }
 
-    .header_name {
-        width: 30%;
-
+    .header_name{
+      width: 30%;
+      
     }
-}
+  }
 
-@media only screen and (max-width: 634px) {
+  @media only screen and (max-width: 634px) {
     .my-div .line1 {
-        margin-top: 6%;
-        width: 15%;
+      margin-top: 6%;
+      width: 15%;
     }
 
     .my-div .line2 {
-        margin-top: 6%;
-        width: 15%;
+      margin-top: 6%;
+      width: 15%;
     }
 
-    .header_name {
-        width: 30%;
-
+    .header_name{
+      width: 30%;
+      
     }
-}
+  }
 
-@media only screen and (max-width: 634px) {
+  @media only screen and (max-width: 634px) {
     .my-div .line1 {
-        margin-top: 6%;
-        width: 11%;
+      margin-top: 6%;
+      width: 11%;
     }
 
     .my-div .line2 {
-        margin-top: 6%;
-        width: 11%;
+      margin-top: 6%;
+      width: 11%;
     }
 
-    .header_name {
-        width: 30%;
-
+    .header_name{
+      width: 30%;
+      
     }
-}
+  }

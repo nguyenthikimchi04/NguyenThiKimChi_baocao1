@@ -1,0 +1,139 @@
+.Add_Cake {
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: "Bellota";
+    background-color: #FDF6F0;
+    color: #4B1D1D;
+
+}
+
+.SideMenu_Admin {
+    flex: 20%;
+    width: 30%;
+    padding-top: 2%;
+}
+
+.Add_Cake_div {
+    width: 80%;
+    padding-left: 5%;
+}
+
+.UploadImg_header {
+    width: 70%;
+    margin-left: 30px;
+}
+
+.UploadImg_header h1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    padding-left: 3%;
+}
+
+.input_info {
+    width: 80%;
+    margin-left: 130px;
+    margin-bottom: 5%;
+}
+
+.input_Name_div {
+    display: flex;
+    width: 80%;
+    height: 45px;
+    margin-top: 20px;
+}
+
+.input_Name_div p {
+    flex: 20%;
+}
+
+.input_Name_div input {
+    flex: 70%;
+}
+
+.message {
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 4px;
+    font-weight: bold;
+}
+
+.message.success {
+    background-color: #d4edda;
+    color: #155724;
+}
+
+.message.error {
+    background-color: #f8d7da;
+    color: #721c24;
+}
+
+.message-close {
+    background: none;
+    border: none;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.upload_imgs_div {
+    width: 90%;
+    margin-left: 50px;
+}
+
+.upload_imgs_Top {
+    margin-left: 10%;
+    display: flex;
+    width: 70%;
+    height: 400px;
+}
+
+.upload_imgs_Bot {
+    margin-left: 10%;
+    display: flex;
+    width: 70%;
+    height: 400px;
+}
+
+.upload_imgs {
+    flex: 40%;
+    margin: 20px;
+    border-color: #721c24;
+    border-width: 2px;
+    border-style: solid;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.upload_imgs_btn {
+    width: 100%;
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    padding: 8px 16px;
+}
+img.upload_img{
+    width: 100%;
+    height: 90%;
+    object-fit: cover;
+}
+.save_btn{
+    padding: 8px 16px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    outline: none;
+    background-color: #CD8042;
+}
+.save_btn:hover{
+    background-color: #721c24;
+}
