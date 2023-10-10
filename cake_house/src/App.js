@@ -19,6 +19,7 @@ import SideMenuAdmin from "./admin/SideMenuAdmin";
 import Dashboard from "./admin/Dashboard";
 import ProductList from "./admin/ProductList";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
+import { AuthContextProvider } from "./context/AuthContext";
 import { Redirect } from 'react-router-dom';
 
 
