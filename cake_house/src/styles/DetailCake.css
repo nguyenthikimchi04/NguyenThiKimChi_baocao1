@@ -1,0 +1,769 @@
+
+.detail{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: left;
+    flex-direction: column;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: "Bellota";
+    background-color: #FDF6F0;
+    color: #4B1D1D;
+}
+
+.detail_item_card{
+    background-color: #F8E2CF;
+    height: 600px;
+    width:90%;
+    margin-left: 5%;
+    margin-top: 14vh;
+    margin-bottom: 3vh;
+    display: flex;
+    border-radius: 10px;
+  
+}
+.detail_group_img{
+  flex:40%
+}
+.detail_img_center_div{
+  width: 60%;
+  height: 100%;
+}
+.detail_img_center{
+  width: 350px;
+  height: 342px;
+  margin-top: 20px;
+  margin-left: 15px;
+  margin-bottom: 5px;
+  border-radius: 5px;
+}
+.detail_img_center_div {
+  /* width: 60%; */
+  /* height: 100%; */
+  width: 100%;
+  height: 100%;
+}
+.detail_img_1{
+    /* width: 145px;
+    height: 145px; */
+
+    width: 160px;
+    height: 160px;
+    /* margin-left: 100%; */
+    border-radius: 5px;
+    margin-left: 30px;
+}
+.detail_img_2{
+  width: 160px;
+  height: 160px;
+  margin-top: 15px;
+  border-radius: 5px;
+  margin-left: 30px;
+}
+
+.detail_secondary_img{
+  margin-top: 20px;
+  margin-left: 20px;
+  margin-bottom: 5px;
+  /* height: 300px; */
+  display: grid;
+  flex: 40% 1;
+}
+
+.detail_info{
+    margin-left: 40px;
+    flex:50%
+}
+
+.detail_info h1{
+    font-size: 60px;
+}
+
+.detail_info h2{
+  margin-bottom: 0px;
+  margin-top: 10px;
+  font-size: 45px;
+}
+.detail_info p{
+    font-size: 27px;
+    margin-bottom: 10px;
+ }
+ .detail .my-div {
+    width: 90%;
+    height: 80px;
+    display: flex;
+    margin-top: 3%;
+  
+  }
+  
+  .line1_LienQuan {
+   
+    margin-top: 3%;
+    margin-left: 21%;
+    width: 25%;
+    height: 5px;
+    background-color: #FCD8D4;
+  }
+  .line2_LienQuan {
+  
+    margin-top: 3%;
+    width: 25%;
+    height: 5px;
+    background-color: #FCD8D4;
+  }
+  .detail_BanhLienQuan{
+    width: 30%;
+    text-align: center;
+    font-family: Bellota;
+    color: #4B1D1D;
+  }
+
+  .button_size{
+    height: 40%;
+  }
+
+
+  .detail_button_size button{
+    font-size: 18px;
+    margin-right: 3%;
+    background-color: #CD8042;
+    color: white;
+    width: 15%;
+    height: 35px;
+    border-radius: 10px;
+    border: 1px solid #CD8042;
+    cursor: pointer;
+  }
+  .detail_number_button{
+    display: flex;
+    margin-left: 100px;
+    width: 80%;
+    height: 30px;
+  }
+  .detail_number_button h2{
+    margin-bottom: 20px;
+    margin-left: 20px;
+    margin-top: -10px;
+
+  }
+  .detail_number_button button{
+    font-size: 30px;
+    color: #CD8042;
+    margin-left: 20px;
+    background-color: white;
+    width: 15%;
+    height: 35px;
+    border-radius: 10px;
+    border: 1px solid #CD8042;
+  }
+  /* .detail_number_button button:hover {
+    box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.5);
+    transition: 0.3s ease-in;
+    cursor: pointer;
+  } */
+  .detail_number{
+    margin-top: 10px;
+  }
+  .detail_name_review{
+    display: flex;
+    height: 20%;
+  }
+  .detail_name_review p{
+  
+    margin-top: 40px;
+    flex: 40%;
+    font-size: 15px;
+  }
+  .detail_name_review h1{
+    flex: 55%;
+    margin-top: 0px;
+    margin-bottom: 0px;
+  }
+  .detail_review_star{
+    display: flex;
+    margin-top: 5%;
+    flex: 45%;
+  }
+  .detail_img_star{
+    width: 20px;
+    height: 20px;
+  }
+
+  .detail_review {
+    margin-left: 40%;
+    display: flex;
+    margin-top: 2%;
+    height: 50px;
+  }
+
+  .detail_review p{
+    font-size: 20px;
+    flex: 60% 1;
+    margin-left: 4%;
+  }
+  .detail_buy{
+    display: flex;
+    margin-top: 50px;
+  }
+  .btn_addCart{
+    flex: 60%;
+    margin-right: 5%;
+    cursor: pointer;
+    display: flex;
+  }
+  
+  .detail_buy_button{
+
+  }
+  .detail_img_love{
+    width: 30px;
+    height: 30px;
+    margin-left: 70%;
+  }
+  .detail_love{
+    display: flex;
+  }
+  .detail_img_love{
+    flex: 20%;
+  }
+  .detail_love p{
+    flex: 70%;
+    margin-top: -1px;
+    margin-left: 2%;
+  }
+
+  .detail_addcart_button{
+    margin-top: 3px;
+    color: #CD8042;
+    background-color: white;
+    font-size: 22px;
+    border-radius: 10px;
+    border: none;
+    flex: 80%;
+  }
+  .btn_addCart{
+    color: #CD8042;
+    background-color: white;
+    height: 37px;
+    font-size: 22px;
+    border-radius: 10px;
+    border: 1px solid #CD8042;
+    flex: 50%;
+  }
+  .btn_addCart_icon{
+    flex:20%;
+  }
+  .fa-cart-plus{
+    margin-top: 8px;
+  }
+  .detail_buy_button{
+    background-color: #CD8042;
+    color: white;
+    /* width: 19%; */
+    /* width: 300px; */
+    flex: 40%;
+    font-size: 22px;
+    height: 35px;
+    border-radius: 10px;
+    border: 1px solid #CD8042;
+    margin-right: 20%;
+    cursor: pointer;
+  }
+  /* =================Reposip=============== */
+  /* @media screen and (max-width: 600px) {
+    div.example {
+      font-size: 30px;
+    }
+  }
+  @media screen and (min-width: 600px) {
+    div.example {
+      font-size: 80px;
+    }
+  } */
+
+  /* ================ review Star============= */
+  :root{
+    --yellow:#ffeb3b;
+    --star-color:#f1f1f1;
+    --red:#FF6243;
+  }
+  *::before,
+  *::after{
+    box-sizing: border-box;
+  }
+  .detail_rating_star{
+    position: relative;
+    display: flex;
+    margin:10px 0;
+    flex: 40%;
+    flex-direction: row-reverse;
+  }
+  .detail_rating_star input{
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    appearance: none;
+    overflow: hidden;
+    cursor: pointer;
+    margin: 0px 1px;
+  }
+  .detail_rating_star input::before{
+    content: '\eeb8';
+    position: absolute;
+    font-family: boxicons;
+    font-size: 27px;
+    position: absolute;
+    /* left: 4px; */
+    color: var(--star-color);
+    transition: all .3s;
+  }
+  .detail_rating_star input:nth-child(2n+1)::before{
+    /* right: 4px; */
+    left: initial;
+  }
+  .detail_rating_star input:hover ~input::before,
+  .detail_rating_star input:hover::before,
+  .detail_rating_star input:checked ~ input::before,
+  .detail_rating_star input:checked::before{
+    color: var(--yellow);
+  }
+
+   .detail_love_div{
+    display: flex;
+    margin-left: 70%;
+  } 
+  .detail_love input {
+    position: relative;
+    width: 50px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    appearance: none;
+    cursor: pointer;
+    margin: 0px 1px;
+}
+
+.detail_love input::before {
+    content: "\2665";
+    position: absolute;
+    font-family: Arial, sans-serif;
+    font-size: 50px;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    /* color: var(--star-color); */
+    transition: all 0.3s;
+}
+
+.detail_love input:checked ~ input::before,
+.detail_love input:checked::before {
+    color: var(--red);
+}
+
+ /* =================Feed Back==================== */
+ .my-div_feedback{
+ 
+  width: 90%;
+  height: 80px;
+  display: flex;
+ }
+ .detai_item_FeedBack{
+  margin-left: 5%;
+ }
+ .detail_Feedback{
+  background-color: #FCD8D4;
+  width: 90%;
+  margin-left: 5%;
+  margin-bottom: 5%;
+  border-radius: 10px;
+}
+
+ /* =================Card feedback=================== */
+ .CardFeedBack{
+  width: 95%;
+  background-color: #FDF6F0;
+  border-radius: 10px;
+  margin-bottom: 2%;
+ }
+ .FeedBack_User{
+  display: flex;
+ }
+ .FeedBack_img {
+  width: 30px;
+  height: 30px;
+  margin-left: 3%;
+  margin-top: 1.5%;
+}
+.FeedBack_User h2{
+  margin-left: 1%;
+}
+.FeedBack_Comment{
+  margin-left: 7%;
+  width: 85%;
+  height: 100%;
+}
+
+
+
+ /* =================Chi tiết và mô tả sản phẩm ===============*/
+ .line1_Chitiet {
+   
+  margin-top: 3%;
+  margin-left: 21%;
+  width: 25%;
+  height: 5px;
+  background-color: white;
+}
+.line2_Chitiet {
+
+  margin-top: 3%;
+  width: 25%;
+  height: 5px;
+  background-color: white;
+}
+
+.detail_ChiTiet_div{
+  display: flex;
+  margin-top: -30px;
+
+}
+.chitiet_background{
+  background-color: #F8E2CF;
+  border-radius: 10px;
+
+}
+
+.detail_ChiTiet_MoTa{
+  width:90%;
+  margin-left: 5%;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  
+ }
+ .detail_ChiTiet{
+  margin-left: 5%;
+  flex:50%;
+  margin-top: 5%;
+ }
+.detail_ChiTiet_info{
+  width: 100%;
+  font-size: 23px;
+  margin-top: 50px;
+}
+.detail_MoTa_info{
+  width: 100%;
+  font-size: 23px;
+  margin-top: 50px;
+}
+.detail_MoTa_info ul{
+  width: 100%;
+}
+.detail_MoTa_info li{
+  width: 100%;
+  margin-top: 15px;
+  word-break: break-word;
+}
+ .detail_MoTa{
+  margin-left: 5%;
+  margin-top: 20px;
+  margin-bottom: 50px;
+  width: 50%;
+  
+ }
+ .detail_MoTa h2{
+  font-size: 35px;
+  /* margin-bottom: 7%; */
+  margin-top: 11%;
+ }
+ .detail_ChiTiet_div_img{
+  flex:50%;
+ }
+ .detail_ChiTiet_img{
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+ }
+ .detail_MoTa_div{
+  display: flex;
+  margin-top: 5%;
+  background-color: #FDF6F0;
+ }
+ 
+ .detail_MoTa_div_img{
+  width: 40%;
+  height: 40%;
+ 
+ }
+ .detail_MoTa_img{
+  width: 100%;
+  height: 100%;
+ 
+ }
+ .detail_Mota_div_img{
+  flex:50%;
+ }
+ .detail_MoTa_img{
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+ }
+ 
+ .detail_ChiTiet_header{
+  display: flex;
+  background-image: url('../assets/img_background_Name.png');
+  background-size: 100%;
+  background-repeat: no-repeat;
+  width: 420px;
+  height: 120px;
+  /* margin-bottom: 5%; */
+ }
+ .detail_ChiTiet_header h2{
+  flex: 60%;
+  font-size: 35px;
+  margin-top: 20px;
+  /* margin-left: 2%; */
+ }
+ .detail_header_img {
+  width: 75%;
+  margin-top: 8%;
+  margin-left: 10px;
+}
+
+.detail_header_img_div{
+  flex: 5%;
+}
+.detail_header_MoTa_img_div{
+  flex: 5%;
+}
+.detail_MoTa_header{
+  display: flex;
+  background-image: url('../assets/img_background_Right.png');
+  /* margin-bottom: 5%; */
+  background-size: 100%;
+  background-repeat: no-repeat;
+  width: 420px;
+  height: 120px;
+  margin-left: 32%;
+ }
+.detail_MoTa_header h2{
+  flex: 55% 1;
+  margin-top: 20px;
+  padding-left: 30px;
+}
+.detail_header_MoTa_img{
+  width: 75%;
+  /* height: 100%; */
+  margin-top: 10%;
+}
+.Cake_LienQuan{
+  width: 90%;
+  height: 400px;
+  margin-left: 5%;
+}
+/* ==========================Reponsive====================== */
+@media only screen and (max-width: 1300px) {
+  .detail_addcart_button{
+    display: none;
+  }
+  .btn_addCart{
+    flex:20%;
+  }
+  .detail_buy_button{
+    margin-right: 30%;
+  }
+  .detail_MoTa_header{
+    margin-left: 19%;
+  }
+}
+
+@media only screen and (max-width: 1200px) {
+  .detail_love_div {
+    margin-left: 50%;
+  }
+  .detail_name_review h1 {
+    flex: 50% 1;
+  }
+
+  .detail_info h1 {
+    font-size: 60px;
+  }
+  .detail_review {
+    flex: 40% 1;
+  }
+  .detail_MoTa_header{
+    margin-left: 12%;
+  }
+  .detail_ChiTiet_header h2 {
+    font-size: 32px;
+  }
+  .detail_MoTa h2{
+    font-size: 32px;
+  }
+  .detail_ChiTiet_info {
+    font-size: 22px;
+    margin-top: 40px;
+    width: 95%;
+  }
+  .detail_MoTa_info {
+    width: 100%;
+    font-size: 22px;
+    margin-top: 50px;
+  }
+  .detail_MoTa_info ul {
+    width: 92%;
+    margin-right: 0px;
+  }
+  .detail_number_button button{
+    width: 20%;
+  }
+}
+@media only screen and (max-width: 1100px) {
+  .detail_MoTa_header{
+    margin-left: 3%;
+  }
+}
+@media only screen and (max-width: 1000px) {
+  .detail_item_card{
+    height: 560px;
+  }
+  .detail_review{
+    margin-left: 20%;
+
+  }
+  .detail_info h2{
+    font-size: 40px;
+  }
+  .detail_button_size p{
+    font-size: 24px;
+    margin-top: 13px;
+    margin-bottom: 13px;
+  }
+  .detail_number p{
+    font-size: 24px;
+  }
+  .detail_MoTa_header {
+    width: 350px;
+    height: 100px;
+    margin-left: 15%;
+   
+  }
+  
+  .detail_ChiTiet_header {
+    width: 350px;
+    height: 100px;
+  }
+  .detail_ChiTiet_info {
+    font-size: 20px;
+    margin-top: 30px;
+    width: 95%;
+  }
+  .detail_MoTa_info {
+    font-size: 20px;
+    margin-top: 30px;
+  }
+  .detail_MoTa h2 {
+    font-size: 29px;
+  }
+  .detail_ChiTiet_header h2 {
+    font-size: 29px;
+  }
+}
+@media only screen and (max-width: 900px) {
+  .detail_item_card{
+    height: 520px;
+  }
+  .detail_MoTa_header {
+    width: 300px;
+    margin-left: 15%;
+    height: 90px;
+  }
+  .detail_MoTa h2 {
+    font-size: 25px;
+}
+  .detail_ChiTiet_header {
+    width: 320px;
+  }
+  .detail_ChiTiet_header h2 {
+    font-size: 25px;
+  }
+  
+  .detail_ChiTiet_info {
+    font-size: 19px;
+    margin-top: 20px;
+  }
+  .detail_MoTa_info {
+    font-size: 19px;
+    margin-top: 20px;
+  }
+  .detail_MoTa_img {
+    height: 500px;
+  }
+  .detail_button_size button{
+    font-size: 16px;
+    width: 18%;
+  }
+  .detail_review {
+    margin-left: 10%;
+  }
+  .detail_number_button{
+    margin-left: 50px;
+  }
+  .detail_buy_button {
+    margin-right: 20%;
+    font-size: 18px;
+  }
+  .detail_review p {
+    font-size: 18px;
+}
+}
+@media only screen and (max-width: 800px) {
+  .detail_info h1 {
+    font-size: 52px;
+  }
+  .detail_info h2 {
+    font-size: 37px;
+  }
+  .detail_review {
+    margin-left: 0%;
+  }
+  .detail_buy_button {
+    margin-right: 15%;
+  }
+  .detail_info h2 {
+    margin-top: 0px;
+  }
+  .detail_button_size p {
+    font-size: 22px;
+    margin-top: 8px;
+    margin-bottom: 8px;
+  }
+  .detail_number p {
+    font-size: 22px;
+    margin-top: 8px;
+  }
+  .detail_buy {
+    display: flex;
+    margin-top: 30px;
+  }
+  .detail_item_card {
+    height: 470px;
+  }
+  .detail_button_size button {
+    height: 29px;
+    border-radius: 7px;
+  }
+  .detail_info {
+    margin-left: 20px;
+  }
+  .detail_info h1 {
+    font-size: 42px;
+  }
+  .detail_info h2 {
+    font-size: 30px;
+  }
+}

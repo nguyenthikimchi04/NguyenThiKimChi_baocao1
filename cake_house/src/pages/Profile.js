@@ -8,7 +8,6 @@ import { useState,useEffect } from "react";
 import Noti_LogOut from "../components/NoTi_LogOut";
 import { collection,addDoc , getDocs,getDoc,updateDoc, doc,query, where, } from 'firebase/firestore/lite'; 
 import { db } from "../firebase";
-import CardAddressUsed from "../components/CardAddressUsed";
 
 function Profile() {
     const {user,logout}=UserAuth();
